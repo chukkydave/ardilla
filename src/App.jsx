@@ -1,15 +1,14 @@
-// src/App.jsx
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Expect from "./components/Expect"
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      {/* Hero section and the rest of your app */}
       <Hero />
-
+      <Expect />
     </div>
   );
 };
