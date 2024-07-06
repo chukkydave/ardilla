@@ -30,7 +30,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className={`fixed w-full top-0 z-50 p-4 transition-all ${isScrolled ? 'bg-[#F6F7F9] shadow-md' : 'bg-transparent'}`}>
+        <nav className={`fixed w-full top-0 z-50 lg:px-32 md:px-16 px-8 transition-all ${isScrolled ? 'bg-[#F6F7F9] shadow-md md:py-6 py-4' : 'lg:py-14 md:py-10 py-8 bg-transparent'}`}>
             <div className="container mx-auto flex justify-between items-center">
                 {/* Logo */}
                 <div className="text-2xl font-bold">
@@ -38,11 +38,11 @@ const Navbar = () => {
                 </div>
 
                 {/* Desktop Menu */}
-                <ul className={`hidden lg:flex font-cabinet font-medium text-sm space-x-6 ${isScrolled ? 'text-[#240053]' : 'text-white'}`}>
-                    <li><a href="#home" className="hover:text-purple-600">Products</a></li>
-                    <li><a href="#services" className="hover:text-purple-600">Business</a></li>
-                    <li><a href="#about" className="hover:text-purple-600">Company</a></li>
-                    <li><a href="#contact" className="hover:text-purple-600">Learn</a></li>
+                <ul className={`hidden lg:flex font-cabinet font-medium gap-[50px] text-sm space-x-6 ${isScrolled ? 'text-[#240053]' : 'text-white'}`}>
+                    <li><a href="#products" className="hover:text-purple-600">Products</a></li>
+                    <li><a href="#business" className="hover:text-purple-600">Business</a></li>
+                    <li><a href="#company" className="hover:text-purple-600">Company</a></li>
+                    <li><a href="#learn" className="hover:text-purple-600">Learn</a></li>
                 </ul>
 
                 {/* Country Dropdown and Create Account Button */}
@@ -83,10 +83,10 @@ const Navbar = () => {
                             <FaTimes color='#240053' />
                         </button>
                         <ul className="flex font-cabinet font-medium flex-col items-center space-y-4 text-[#240053]">
-                            <li><a href="#home" className="hover:text-purple-600" onClick={closeMobileMenu}>Products</a></li>
-                            <li><a href="#services" className="hover:text-purple-600" onClick={closeMobileMenu}>Business</a></li>
-                            <li><a href="#about" className="hover:text-purple-600" onClick={closeMobileMenu}>Company</a></li>
-                            <li><a href="#contact" className="hover:text-purple-600" onClick={closeMobileMenu}>Learn</a></li>
+                            <li><a href="#products" className="hover:text-purple-600" onClick={closeMobileMenu}>Products</a></li>
+                            <li><a href="#business" className="hover:text-purple-600" onClick={closeMobileMenu}>Business</a></li>
+                            <li><a href="#company" className="hover:text-purple-600" onClick={closeMobileMenu}>Company</a></li>
+                            <li><a href="#learn" className="hover:text-purple-600" onClick={closeMobileMenu}>Learn</a></li>
                         </ul>
                         <div className='flex flex-col items-center'>
                             <div className="flex items-center">
