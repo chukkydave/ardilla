@@ -37,7 +37,7 @@ export default function Testimonials() {
     return (
         <section className="bg-gray-100 lg:pl-32  md:pl-16 pl-8 py-24">
             <div className="text-left mb-12">
-                <h2 className="text-3xl md:text-4xl lg:text-6xl font-extrabold font-cabinet text-[#3D0072]">Don’t Take Our <span className="text-[#E8356D]">Word</span> For It</h2>
+                <h1 className="text-4xl md:text-5xl lg:text-[4rem] font-extrabold font-cabinet text-[#3D0072]">Don’t Take Our <span className="text-[#E8356D]">Word</span> For It</h1>
                 <p className="mt-4 font-cabinet text-base text-[#3D0072]">Listen to testimonials from Ardilla users building wealth</p>
             </div>
             <div className="overflow-x-auto">
