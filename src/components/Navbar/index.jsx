@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import logoWhite from '../../assets/logo.png';
-import logoPurple from '../../assets/logo-purple.svg';
-import earthImage from '../../assets/earth.png';
+import logoWhite from '../../assets/images/logo.png';
+import logoPurple from '../../assets/images/logo-purple.svg';
+import earthImage from '../../assets/images/earth.png';
 
 const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
