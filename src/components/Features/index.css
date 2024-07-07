@@ -1,0 +1,9 @@
+#main-mans {
+    transition: transform 0.3s ease-in-out;
+    overflow-y: hidden;
+}
+
+#main-mans:hover {
+    transform: scale(1.05);
+    overflow-y: auto;
+}
