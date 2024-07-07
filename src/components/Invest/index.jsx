@@ -6,7 +6,7 @@ export default function Invest() {
     return (
         <section className="relative lg:px-32 md:px-16 px-8 bg-cover bg-center min-h-screen" style={{ backgroundImage: `url(${backgroundImage})` }}>
             <div className="max-w-6xl mx-auto pt-24 text-center lg:text-left">
-                <h1 className="text-3xl md:text-4xl lg:text-6xl font-extrabold text-[#3D0072] leading-tight">
+                <h1 className="text-4xl md:text-5xl lg:text-[4rem] font-extrabold text-[#3D0072] leading-tight">
                     Unlimited <span className="text-[#0D9488]">Investment</span> <br /> <span className="text-[#0D9488]">Opportunities</span>
                 </h1>
                 <p className="text-lg md:text-xl lg:text-2xl text-[#3D0072] mt-4 leading-thin">
