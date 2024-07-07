@@ -64,7 +64,7 @@ const Navbar = () => {
                             </svg>
                         </div>
                     </div>
-                    <button className={`rounded-full font-cabinet font-bold text-sm px-6 py-3 ${isScrolled ? 'bg-[#8807F7] text-white' : 'bg-[#8807F7] text-white'}`}>Create Account</button>
+                    <button className={`rounded-full font-cabinet hover:bg-white hover:text-[#8807F7] font-bold text-sm px-6 py-3 ${isScrolled ? 'bg-[#8807F7] text-white' : 'bg-[#8807F7] text-white'}`}>Create Account</button>
                 </div>
 
 
@@ -99,7 +99,7 @@ const Navbar = () => {
                                     </svg>
                                 </div>
                             </div>
-                            <button className="bg-[#240053] text-white font-cabinet font-bold rounded-full px-8 py-4 mt-4">Create Account</button>
+                            <button className="bg-[#240053] hover:bg-[#d5abfc] hover:text-[#240053] text-white font-cabinet font-bold rounded-full px-8 py-4 mt-4">Create Account</button>
                         </div>
 
                     </div>
