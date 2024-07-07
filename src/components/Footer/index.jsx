@@ -79,8 +79,11 @@ export default function Footer() {
                 <hr />
                 <div className='flex flex-row justify-between mt-8 mb-4'>
                     <p className='font-medium text-sm font-cabinet text-white'> &copy; 2023 Ardilla. All rights reserved</p>
-                    <div className='flex gap-2'>
-                        <FaInstagram className='border rounded-full p-1 w-8 h-8' /> <FaFacebookF className='border rounded-full p-1 w-8 h-8' /> <FaLinkedinIn className='border rounded-full p-1 w-8 h-8' /> <CiTwitter className='border rounded-full p-1 w-8 h-8' />
+                    <div className="flex gap-2">
+                        <FaInstagram className="border rounded-full p-1 lg:w-8 lg:h-8 w-6 h-6 transition-transform transform hover:scale-110 " />
+                        <FaFacebookF className="border rounded-full p-1 lg:w-8 lg:h-8 w-6 h-6 transition-transform transform hover:scale-110 " />
+                        <FaLinkedinIn className="border rounded-full p-1 lg:w-8 lg:h-8 w-6 h-6 transition-transform transform hover:scale-110 " />
+                        <CiTwitter className="border rounded-full p-1 lg:w-8 lg:h-8 w-6 h-6 transition-transform transform hover:scale-110 " />
                     </div>
                 </div>
                 <p className='font-normal text-sm font-cabinet text-white'>Ardilla operates under the cooperative license of Ardilla Multipurpose Cooperative Society, LSC 18245. We provide Savings and Fixed deposit services to our users.</p>
