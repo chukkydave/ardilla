@@ -36,7 +36,7 @@ const InterestNavbar = () => {
             <div className="container mx-auto flex justify-between items-center">
                 {/* Logo */}
                 <div className="text-2xl font-bold">
-                    <img src={isScrolled ? logoPurple : logoWhite} alt="Logo" className="h-8" />
+                    <Link to="/">  <img src={isScrolled ? logoPurple : logoWhite} alt="Logo" className="h-8" /></Link>
                 </div>
 
                 {/* Desktop Menu */}

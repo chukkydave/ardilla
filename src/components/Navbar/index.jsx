@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import logoWhite from '../../assets/images/logo.png';
 import logoPurple from '../../assets/images/logo-purple.svg';
 import earthImage from '../../assets/images/earth.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -34,7 +35,7 @@ const Navbar = () => {
             <div className="container mx-auto flex justify-between items-center">
                 {/* Logo */}
                 <div className="text-2xl font-bold">
-                    <img src={isScrolled ? logoPurple : logoWhite} alt="Logo" className="h-8" />
+                    <Link to="/"><img src={isScrolled ? logoPurple : logoWhite} alt="Logo" className="h-8" /></Link>
                 </div>
 
                 {/* Desktop Menu */}
