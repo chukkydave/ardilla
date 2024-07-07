@@ -1,12 +1,10 @@
-import './App.css'
+import React from 'react';
+import LandingPage from './pages/LandingPage';
 
-function App() {
-
+const App = () => {
   return (
-    <>
-      <h1>Ardilla</h1>
-    </>
-  )
-}
+    <LandingPage />
+  );
+};
 
-export default App
+export default App;
