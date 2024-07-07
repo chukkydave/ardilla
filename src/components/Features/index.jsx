@@ -7,9 +7,9 @@ import send from '../../assets/images/send.png';
 import './index.css'
 export default function Features() {
     return (
-        <div className="min-h-screen bg-[#1b0132] text-white pt-16 md:pt-24 lg:pt-32 px-4 md:px-8 lg:px-16 overflow-hidden">
-            <div className="max-w-4xl mx-auto text-center md:text-left">
-                <h1 className="text-3xl md:text-4xl lg:text-[4rem] font-cabinet text-white font-extrabold mb-4">Access More With Your Money</h1>
+        <div className="min-h-screen bg-[#1b0132] text-white pt-16 md:pt-24 lg:pt-32 lg:px-32 md:px-16 px-8  overflow-hidden">
+            <div className=" mx-auto text-left">
+                <h1 className="text-4xl md:text-5xl lg:text-[4rem] font-cabinet text-white font-extrabold mb-4">Access More With Your Money</h1>
                 <p className="mb-8 text-white font-cabinet font-normal text-sm md:text-base lg:text-lg max-w-3xl mx-auto md:mx-0">
                     Earn, learn, parlay, and grow financially. With Ardilla, you have more opportunities than ever at your finger tips. Why not take advantage today?
                 </p>
