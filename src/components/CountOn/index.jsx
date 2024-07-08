@@ -2,7 +2,7 @@ import React from 'react';
 
 const CountOn = () => {
     return (
-        <section className="bg-background lg:px-32 md:px-16 px-8 font-cabinet text-foreground lg:py-40 md:py-28 py-20">
+        <section className="bg-white lg:px-32 md:px-16 px-8 font-cabinet lg:py-40 md:py-28 py-20">
             <h1 className="text-5xl md:text-5xl lg:text-[4rem] font-bold text-[#3D0072] mb-16">Interest you can count on</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 ">
                 <div className="flex items-start space-x-4">
