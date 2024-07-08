@@ -40,10 +40,10 @@ const Navbar = () => {
 
                 {/* Desktop Menu */}
                 <ul className={`hidden lg:flex font-cabinet font-medium gap-5 text-[15px] space-x-6 ${isScrolled ? 'text-[#240053]' : 'text-white'}`}>
-                    <li><a href="#products" className="hover:text-purple-600">Products</a></li>
-                    <li><a href="#business" className="hover:text-purple-600">Business</a></li>
-                    <li><a href="#company" className="hover:text-purple-600">Company</a></li>
-                    <li><a href="interests" className="hover:text-purple-600">Interests</a></li>
+                    <li><Link to="#products" className="hover:text-purple-600">Products</Link></li>
+                    <li><Link to="#business" className="hover:text-purple-600">Business</Link></li>
+                    <li><Link to="#company" className="hover:text-purple-600">Company</Link></li>
+                    <li><Link to="/interests" className="hover:text-purple-600">Interests</Link></li>
                 </ul>
 
                 {/* Country Dropdown and Create Account Button */}
@@ -84,10 +84,10 @@ const Navbar = () => {
                             <FaTimes color='#240053' />
                         </button>
                         <ul className="flex font-cabinet font-medium flex-col text-[15px] items-center space-y-4 text-[#240053]">
-                            <li><a href="#products" className="hover:text-purple-600" onClick={closeMobileMenu}>Products</a></li>
-                            <li><a href="#business" className="hover:text-purple-600" onClick={closeMobileMenu}>Business</a></li>
-                            <li><a href="#company" className="hover:text-purple-600" onClick={closeMobileMenu}>Company</a></li>
-                            <li><a href="interests" className="hover:text-purple-600" onClick={closeMobileMenu}>Interests</a></li>
+                            <li><Link to="#products" className="hover:text-purple-600" onClick={closeMobileMenu}>Products</Link></li>
+                            <li><Link to="#business" className="hover:text-purple-600" onClick={closeMobileMenu}>Business</Link></li>
+                            <li><Link to="#company" className="hover:text-purple-600" onClick={closeMobileMenu}>Company</Link></li>
+                            <li><Link to="/interests" className="hover:text-purple-600" onClick={closeMobileMenu}>Interests</Link></li>
                         </ul>
                         <div className='flex flex-col items-center'>
                             <div className="flex items-center">
