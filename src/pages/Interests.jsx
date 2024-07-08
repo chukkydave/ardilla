@@ -3,6 +3,7 @@ import InterestNavbar from '../components/Navbar/interest-navbar'
 import InterestsHero from '../components/Hero/interests-hero'
 import CountOn from '../components/CountOn'
 import HowItWorks from '../components/HowItWorks'
+import Faq from "../components/Faq";
 const Interests = () => {
     return (
         <div>
@@ -10,6 +11,7 @@ const Interests = () => {
             <InterestsHero />
             <CountOn />
             <HowItWorks />
+            <Faq />
         </div>
     )
 }
